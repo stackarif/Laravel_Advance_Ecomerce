@@ -2,7 +2,7 @@
 
 namespace Database\Seeders;
 
-use Attribute;
+use App\Models\Attribute;
 use Illuminate\Database\Seeder;
 
 class AttributesTableSeeder extends Seeder

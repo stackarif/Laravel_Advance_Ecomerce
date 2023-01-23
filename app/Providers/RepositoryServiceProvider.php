@@ -17,8 +17,8 @@ use App\Repositories\OrderRepository;
 class RepositoryServiceProvider extends ServiceProvider
 {
     protected $repositories = [
-           CategoryContract::class         =>             CategoryRepository::class,
-        // AttributeContract::class        =>          AttributeRepository::class,
+        CategoryContract::class         =>             CategoryRepository::class,
+        AttributeContract::class        =>             AttributeRepository::class,
         // BrandContract::class            =>          BrandRepository::class,
         // ProductContract::class          =>          ProductRepository::class,
         // OrderContract::class            =>          OrderRepository::class,
